@@ -1,0 +1,23 @@
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+@media (max-width: 600px) {
+  .nav-list {
+    flex-direction: column;
+  }
+  .product-card img {
+    width: 100%;
+  }
+}
+
